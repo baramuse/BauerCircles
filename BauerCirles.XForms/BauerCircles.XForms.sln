@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BauerCircles.XForms.Shared", "Shared\BauerCircles.XForms.Shared.shproj", "{00807ECB-32B4-420C-BEF4-7EEB97C72F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BauerCircles.XForms.iOS", "iOS\BauerCircles.XForms.iOS.csproj", "{53769980-C8E7-4DE4-AF32-9D0A04CED562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BauerCircles.XForms.Android", "Android\BauerCircles.XForms.Android.csproj", "{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|iPhone.Build.0 = Debug|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|iPhone.ActiveCfg = Release|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|iPhone.Build.0 = Release|iPhone
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{53769980-C8E7-4DE4-AF32-9D0A04CED562}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|iPhone.Build.0 = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6B160D62-6CEE-4B64-B0A1-E542A2D7B2F4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = iOS\BauerCircles.XForms.iOS.csproj
+	EndGlobalSection
+EndGlobal
