@@ -5,7 +5,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace BauerCircles
+namespace BauerCircles.iOS
 {
 	public class Application
 	{

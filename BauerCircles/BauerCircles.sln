@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BauerCircles", "BauerCircles\BauerCircles.csproj", "{BC245F72-42E2-4E5C-AD01-B337332E2F48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{BC245F72-42E2-4E5C-AD01-B337332E2F48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A563B291-A2C5-4997-8F10-7755D9AE9C2E}"
 EndProject
@@ -41,6 +41,6 @@ Global
 		{BC245F72-42E2-4E5C-AD01-B337332E2F48}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = BauerCircles\BauerCircles.csproj
+		StartupItem = iOS\iOS.csproj
 	EndGlobalSection
 EndGlobal

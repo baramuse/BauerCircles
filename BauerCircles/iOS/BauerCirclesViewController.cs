@@ -7,7 +7,7 @@ using MonoTouch.CoreAnimation;
 using MonoTouch.CoreGraphics;
 using BauerCircles.Shared;
 
-namespace BauerCircles
+namespace BauerCircles.iOS
 {
 	public class DraggableBall : UITextView
 	{
@@ -40,9 +40,11 @@ namespace BauerCircles
 
 		private async void tapped (UITapGestureRecognizer g)
 		{
+			UIView.Animate (0.1, 0, UIViewAnimationOptions.Autoreverse, () => this.BackgroundColor = this.BackgroundColor.ColorWithAlpha (0.5f), null);
 			_colorData = await ColourLoverClient.GetNewRandomColorAsync ();
+			this.Layer.RemoveAllAnimations ();
 			InvokeOnMainThread (() => {
-				this.BackgroundColor = UIColor.FromRGB (_colorData.Rgb.Red / 255f, _colorData.Rgb.Green / 255f, _colorData.Rgb.Blue / 255f);
+				UIView.Animate (1, () => this.BackgroundColor = UIColor.FromRGB (_colorData.Rgb.Red / 255f, _colorData.Rgb.Green / 255f, _colorData.Rgb.Blue / 255f));
 				if (_showTextColor)
 					this.Text = _colorData.Title;
 			});
