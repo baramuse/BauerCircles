@@ -55,6 +55,6 @@ Global
 		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\iOS.csproj
+		StartupItem = Android\BauerCircles.Android.csproj
 	EndGlobalSection
 EndGlobal
