@@ -13,6 +13,7 @@ using Android.Views;
 using Android.Widget;
 using BauerCircles.Shared;
 using System.Threading.Tasks;
+using Android.Graphics;
 
 namespace BauerCircles.Android
 {
@@ -108,8 +109,9 @@ namespace BauerCircles.Android
 		private async Task changeBackgroundColor()
 		{
 			var color = await ColourLoverClient.GetNewRandomColorAsync ();
+			this.Background.SetColorFilter (new global::Android.Graphics.Color (color.Rgb.Red, color.Rgb.Green, color.Rgb.Blue), PorterDuff.Mode.Multiply);
 
-			this.SetBackgroundColor (new global::Android.Graphics.Color (color.Rgb.Red, color.Rgb.Green, color.Rgb.Blue));
+			//this.SetBackgroundColor (new global::Android.Graphics.Color (color.Rgb.Red, color.Rgb.Green, color.Rgb.Blue));
 		}
 
 	}
