@@ -17,55 +17,8 @@ using Android.Graphics;
 
 namespace BauerCircles.Android
 {
-	public class BauerCircle : View, GestureDetector.IOnDoubleTapListener, GestureDetector.IOnGestureListener
+	public class BauerCircle : View
 	{
-		public bool OnDown (MotionEvent e)
-		{
-			throw new NotImplementedException ();
-		}
-
-		public bool OnFling (MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
-		{
-			throw new NotImplementedException ();
-		}
-
-		public void OnLongPress (MotionEvent e)
-		{
-			throw new NotImplementedException ();
-		}
-
-		public bool OnScroll (MotionEvent e1, MotionEvent e2, float distanceX, float distanceY)
-		{
-			throw new NotImplementedException ();
-		}
-
-		public void OnShowPress (MotionEvent e)
-		{
-			throw new NotImplementedException ();
-		}
-
-		public bool OnSingleTapUp (MotionEvent e)
-		{
-			return true;
-		}
-
-		bool GestureDetector.IOnDoubleTapListener.OnDoubleTap (MotionEvent e)
-		{
-			return true;
-		}
-
-		bool GestureDetector.IOnDoubleTapListener.OnDoubleTapEvent (MotionEvent e)
-		{
-			return true;
-		}
-
-		bool GestureDetector.IOnDoubleTapListener.OnSingleTapConfirmed (MotionEvent e)
-		{
-			throw new NotImplementedException ();
-		}
-
-		private GestureDetector _detector;
-
 		public BauerCircle (Context context) :
 			base (context)
 		{
@@ -87,8 +40,6 @@ namespace BauerCircles.Android
 		void Initialize ()
 		{
 			this.SetBackgroundResource (Resource.Drawable.CircleDrawable);
-			_detector = new GestureDetector (this);
-			_detector.SetOnDoubleTapListener (this);
 
 			this.Touch+= HandleTouch;
 		}
