@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A563B291-A2C5-4997-8F10-7755D9AE9C2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BauerCircles.Android", "Android\BauerCircles.Android.csproj", "{CF07371C-E80C-4678-9772-AC94F27D6A18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -39,6 +41,18 @@ Global
 		{BC245F72-42E2-4E5C-AD01-B337332E2F48}.Release|iPhone.Build.0 = Release|iPhone
 		{BC245F72-42E2-4E5C-AD01-B337332E2F48}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{BC245F72-42E2-4E5C-AD01-B337332E2F48}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Release|iPhone.Build.0 = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CF07371C-E80C-4678-9772-AC94F27D6A18}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOS\iOS.csproj
